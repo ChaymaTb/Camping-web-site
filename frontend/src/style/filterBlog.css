@@ -1,0 +1,73 @@
+.filterBlog {
+    width: 350px;
+    margin-top: 30px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.search_input {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+}
+
+.search_input input {
+    width: 350px;
+    height: 65px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: none;
+    border-radius: 1px;
+    outline: none;
+    background-color: #62ac44;
+    color: #fff;
+    /* transition: .3s ease; */
+}
+
+.search_input input::placeholder {
+    color: #fff;
+}
+
+.search_icon {
+    position: absolute;
+    left: 1rem;
+    fill: #fff;
+    width: 1rem;
+    height: 1rem;
+}
+.recent_posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #f6f3f2;
+}
+.recent_posts h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.recent_posts h4{
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+    font-weight: 700;
+}
+.recent_posts_card{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.recent_posts_card img{
+    width: 80px;
+    height: 69px;
+}

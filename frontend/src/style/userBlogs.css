@@ -1,0 +1,136 @@
+.user_blogs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.create_blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+#create_blog_btn {
+    width: 400px;
+    height: 80px;
+    margin-right: 65px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 1px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    color: #39bda7;
+    z-index: 1;
+    margin-left: 10px;
+    background-color: #f6f3f2;
+}
+
+#create_blog_btn:before {
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    width: 140%;
+    height: 180%;
+    background-color: #3e281a;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+#create_blog_btn:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #39bda7;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+#create_blog_btn:hover {
+    color: #fff;
+    border: 1px solid #39bda7;
+}
+
+#create_blog_btn:hover:before {
+    top: -35%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+#create_blog_btn:hover:after {
+    top: -45%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+/* inputs */
+.create_blog_inputs {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 9px;
+
+}
+
+.create_blog_inputs input {
+    background-color: #f6f3f2;
+    border: none;
+    padding: 10px;
+    width: 380px;
+    height: 50px;
+}
+
+.create_blog_inputs textarea {
+    background-color: #f6f3f2;
+    padding: 10px;
+    border: none;
+}
+
+/**/
+#addBlog_btn {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ffbf37;
+    border: none;
+    border-bottom: 5px solid #c8962c;
+    text-shadow: 0px -2px #c8962c;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+#addBlog_btn:hover,
+#addBlog_btn:active {
+    -webkit-transform: translate(0px, 5px);
+    -ms-transform: translate(0px, 5px);
+    transform: translate(0px, 5px);
+    border-bottom: 1px solid #c8962c;
+}
+.user_blogs_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 10px;
+    min-height: 500px;
+}
+.blog_card_container{
+    position: relative;
+}

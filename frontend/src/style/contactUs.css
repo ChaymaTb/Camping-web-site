@@ -1,0 +1,110 @@
+.contactus {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    padding: 100px;
+}
+.contactus_intro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    width: 40%;
+}
+.intro_title h2 {
+    color: #61ac44e6;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.intro_title h3 {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    color: #3e281c;
+    margin-bottom: 25px;
+}
+.intro_title p{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Rubik', sans-serif;
+    color: #7c6f68;
+    width: 430px;
+}
+.content_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.line{
+    background-color: #7c6f68d0;
+    height: 1px;
+    width: 80%;
+    margin-left: 20px;
+}
+.contactus_email{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+.contactus_email img{
+    width: 50px;
+}
+.info h6{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 4px;
+    font-family: 'Rubik', sans-serif;
+    color: #7c6f68;
+}
+.info p{
+    font-size: 25px;
+    line-height: 26px;
+    font-family: 'Rubik', sans-serif;
+    color: #7c6f68;
+}
+.contact_inputs{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+.contact_inputs input{
+    width: 35%;
+    height: 40px;
+    background-color: #f6f3f2;
+    border: none;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+.contact_inputs textarea{
+    background-color: #f6f3f2;
+    border: none;
+    padding: 10px;
+    border: #ffbf37;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+.submit_button{
+    width: 170px;
+    height: 50px;
+}
+.submit_button{
+    background-color: #ffbf37;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+}
+
+

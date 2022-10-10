@@ -1,0 +1,81 @@
+.edit_activity_content{
+    height: 100%;
+    background-color: #c6952c88;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+.edit_activity{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 15px; */
+    height: 90%;
+    padding: 25px 0;
+}
+.edit_activity input{
+    width: 320px;
+    height: 40px;
+    border: none;
+    background-color: #f6f3f2;
+    padding: 10px;
+    color: #472c1c;
+}
+.edit_activity textarea{
+    width: 320px;
+    border: none;
+    outline-color: #ffbf37;
+    background-color: #f6f3f2;
+    padding: 10px;
+    color: #472c1c;
+}
+/* Edit Acivity Button */
+.editBtn{
+    width: 100%;
+    text-align: center;
+}
+#done_btn{
+    width: 150px;
+    height: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    background: transparent;
+    color:#472c1c;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    background-color: #f6f3f2;
+    z-index: 1;
+}
+
+#done_btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #472c1c;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+#done_btn:hover::before {
+    width: 100%;
+}
+
+#done_btn:hover {
+    color: #f6f3f2;
+    border: 1px solid #f6f3f2;
+}
+
+#done_btn:active:before {
+    background: #b9b9b9;
+}

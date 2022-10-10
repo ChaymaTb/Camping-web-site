@@ -1,0 +1,147 @@
+.user_dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 70px;
+}
+
+.user_card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 750px;
+    padding: 30px 0 0 0;
+}
+
+.user_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #f6f3f2;
+    width: 100%;
+    position: relative;
+}
+
+.display {
+    display: flex;
+    align-items: flex-end;
+}
+
+.user_name {
+    min-width: 170px;
+    padding: 20px;
+}
+
+.user_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 500px;
+    margin-top: 8px;
+}
+
+.user_card_content img {
+    width: 30px;
+    height: 30px;
+}
+
+#editUser_btn {
+    border: none;
+    background-color: #008000c7;
+    width: 30px;
+    color: #fff;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+#editUser_btn:hover {
+    box-shadow: 10px 15px 20px rgba(0, 128, 0, 0.78);
+    transform: translateY(-4px);
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.delete_btn {
+    border: none;
+    background-color: #ff3636;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.delete_btn:hover {
+    box-shadow: 10px 15px 20px rgb(255, 54, 54);
+    transform: translateY(-4px);
+}
+
+.edit_admin {
+    position: absolute;
+    top: 24px;
+    left: 578px;
+    z-index: 9999;
+    padding: 5px;
+    width: 80px;
+}
+
+.update_admin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.update_admin select {
+    width: 60px;
+    height: 30px;
+    border: none;
+    color: grey;
+    background-color: #f6f3f2;
+    font-family: 'Rubik', sans-serif;
+    color: #7c6f68;
+    font-size: 16px;
+    outline-color: #ffbf37;
+}
+
+#user_edit {
+    padding: 5px;
+    border-radius: 1px;
+    border: 0;
+    background-color: #ffbf37;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-size: 15px;
+    transition: all .5s ease;
+    color: #fff;
+    margin-left: 5px;
+}
+
+#user_edit:hover {
+    letter-spacing: 3px;
+    background-color: hsl(41, 100%, 61%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgba(0, 0, 0, 0.835) 0px 7px 29px 0px;
+}
+
+#user_edit:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}

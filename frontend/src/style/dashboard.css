@@ -1,0 +1,43 @@
+.dashboardNab{
+    background-color: #3b251a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 0 0 40px;
+    color: #fff;
+    position: sticky;
+}
+.dashboardNab h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+
+}
+.dashboardNab_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 1000px;
+    height: 100%;
+}
+.dashboardNab_nav li{
+    background-color: #fff;
+    height: 50%;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.dashboardNab_nav li:hover{
+    background-color: #ffbf37;
+}
+
+.li_color a{
+    color: #3b251a;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}

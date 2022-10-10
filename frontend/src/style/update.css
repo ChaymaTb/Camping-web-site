@@ -1,0 +1,79 @@
+.update_blog {
+    width: 551px;
+    background-color: rgba(0, 0, 0, 0.642);
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    padding: 12px 100px;
+    min-height: 500px
+}
+
+.update_blog_inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.update_blog_inputs input {
+    width: 400px;
+    height: 45px;
+    background-color: #f6f3f2;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.update_blog_inputs textarea {
+    width: 400px;
+    background-color: #f6f3f2;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+/**/
+#done_btn {
+    width: 150px;
+    height: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    background: transparent;
+    color: #1e5663;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    background-color: #f6f3f2;
+    z-index: 1;
+}
+
+#done_btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #1e5663;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+#done_btn:hover::before {
+    width: 100%;
+}
+
+#done_btn:hover {
+    color: #f6f3f2;
+    border: 1px solid #f6f3f2;
+}
+
+#done_btn:active:before {
+    background: #b9b9b9;
+}

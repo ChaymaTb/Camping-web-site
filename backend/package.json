@@ -4,15 +4,24 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "back":"nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "back": "nodemon server.js",
+    "front":"cd ../frontend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "express-validator": "^6.14.2",
     "mongoose": "^6.6.1",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
   }
 }

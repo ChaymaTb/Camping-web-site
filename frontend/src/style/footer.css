@@ -1,0 +1,145 @@
+.footer {
+    background-color: #3b251a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    min-height: 400px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    clip-path: polygon(50% 0%, 78% 5%, 100% 2%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0 4%, 24% 8%);
+}
+
+.footer_about {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer_about h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer_about p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.50)
+}
+
+.footer_about_icons {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.footer_about_icons img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.footer_logo {
+    width: 20%;
+    color: #2a1713;
+    font-size: 38px;
+    /* height: 50px; */
+    font-weight: 500;
+    font-family: 'Passions Conflict', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo img {
+    width: 150px;
+}
+
+.footer_newsletter {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.footer_newsletter h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer_newsletter p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.50);
+    width: 80%;
+}
+
+.footer_newsletter input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* send button */
+/* From uiverse.io by @adamgiebl */
+.footer_send-btn {
+    font-family: inherit;
+    font-size: 20px;
+    background: #ffbf37;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.footer_send-btn span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+.footer_send-btn svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+.footer_send-btn:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+.footer_send-btn:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+.footer_send-btn:hover span {
+    transform: translateX(5em);
+}
+.footer_send-btn:active {
+    transform: scale(0.95);
+}
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}

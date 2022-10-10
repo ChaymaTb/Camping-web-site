@@ -1,0 +1,88 @@
+.couverture{
+    position: relative;
+}
+.couverture h2{
+    position: absolute;
+    top: 135px;
+    text-align: center;
+    z-index: 999;
+    font-size: 60px;
+    line-height: 62px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    width: 100%
+}
+.couverture_img1{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+img.couverture_img2 {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 307px;
+}
+/*animaion
+.couverture {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dabc62;
+}
+
+
+.couverture h2::before {
+    content: "「...つづく 」";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 4px solid #dabc62;
+    overflow: hidden;
+    color: #dabc62;
+    animation: load91371 7s linear infinite;
+}
+
+@keyframes load91371 {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    10%,
+    20%,
+    30%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80%,
+    90%,
+    100% {
+        border-right-color: transparent;
+    }
+
+    11%,
+    21%,
+    31%,
+    41%,
+    51%,
+    61%,
+    71%,
+    81%,
+    91% {
+        border-right-color: azure;
+    }
+
+    60%,
+    80% {
+        width: 100%;
+    }
+}*/
